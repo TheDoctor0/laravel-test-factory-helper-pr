@@ -13,7 +13,7 @@ class CreateTestMysqlsTable extends Migration
      */
     public function up()
     {
-        Schema::create('test_mysqls', function (Blueprint $table) {
+        Schema::connection('mysql')->create('test_mysqls', function (Blueprint $table) {
             $table->id();
             $table->string('city');
             $table->string('company');

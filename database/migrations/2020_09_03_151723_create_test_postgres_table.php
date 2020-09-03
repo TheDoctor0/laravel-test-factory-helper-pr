@@ -13,7 +13,7 @@ class CreateTestPostgresTable extends Migration
      */
     public function up()
     {
-        Schema::create('test_postgres', function (Blueprint $table) {
+        Schema::connection('pgsql')->create('test_postgres', function (Blueprint $table) {
             $table->id();
             $table->string('city');
             $table->string('company');

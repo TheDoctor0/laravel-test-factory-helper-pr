@@ -13,7 +13,7 @@ class CreateTestSqlitesTable extends Migration
      */
     public function up()
     {
-        Schema::create('test_sqlites', function (Blueprint $table) {
+        Schema::connection('sqlite')->create('test_sqlites', function (Blueprint $table) {
             $table->id();
             $table->string('city');
             $table->string('company');
