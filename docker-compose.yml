@@ -1,0 +1,28 @@
+version: '2.1'
+
+networks:
+  laravel:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres
+    networks:
+      - laravel
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=database
+  mysql:
+    image: 'bitnami/mariadb:latest'
+    networks:
+      - laravel
+    ports:
+      - 3306:3306
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=user
+      - MARIADB_PASSWORD=password
+      - MARIADB_DATABASE=database
