@@ -5559,12 +5559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheDoctor0/laravel-test-factory-helper.git",
-                "reference": "d014d476e65b0b05714d0ea1b7e5328fc53b27de"
+                "reference": "b35b0dc0458443312e2eda0e51a61db80c869641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheDoctor0/laravel-test-factory-helper/zipball/d014d476e65b0b05714d0ea1b7e5328fc53b27de",
-                "reference": "d014d476e65b0b05714d0ea1b7e5328fc53b27de",
+                "url": "https://api.github.com/repos/TheDoctor0/laravel-test-factory-helper/zipball/b35b0dc0458443312e2eda0e51a61db80c869641",
+                "reference": "b35b0dc0458443312e2eda0e51a61db80c869641",
                 "shasum": ""
             },
             "require": {
@@ -5600,7 +5600,7 @@
             "support": {
                 "source": "https://github.com/TheDoctor0/laravel-test-factory-helper/tree/master"
             },
-            "time": "2020-09-03T15:17:06+00:00"
+            "time": "2020-09-03T16:30:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
